@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>目的地推荐 - 我的旅行日记</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "微软雅黑", sans-serif;
+        }
+        body {
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            color: #3498db;
+        }
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .place {
+            display: flex;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+        .place img {
+            width: 40%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+        .place-text {
+            width: 60%;
+            line-height: 1.8;
+        }
+        .place-text h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+        .place-text p {
+            color: #555;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>目的地推荐</h1>
+        <p>小众治愈，解锁不一样的风景</p>
+    </header>
+    <nav>
+        <a href="index.html">主页</a>
+        <a href="destination.html">目的地推荐</a>
+        <a href="travel-story.html">旅行故事</a>
+        <a href="photo-album.html">摄影相册</a>
+        <a href="travel-tips.html">旅行贴士</a>
+    </nav>
+    <div class="container">
+        <div class="place">
+            <img src="images/place1.jpg" alt="云南沙溪古镇">
+            <div class="place-text">
+                <h3>云南·沙溪古镇</h3>
+                <p>沙溪是被时光遗忘的茶马古道重镇，没有大理丽江的喧嚣，只有青石板路、百年古戏台和潺潺的黑惠江。清晨在四方街喝一杯咖啡，傍晚坐在河边看日落，感受最纯粹的云南慢生活。</p>
+                <p><strong>推荐理由：</strong>原生态古镇，茶马古道文化，适合放空、摄影、徒步</p>
+                <p><strong>最佳旅行时间：</strong>4-5月（油菜花海）、9-10月（秋高气爽）</p>
+            </div>
+        </div>
+        <div class="place">
+            <img src="images/place2.jpg" alt="浙江松阳">
+            <div class="place-text">
+                <h3>浙江·松阳</h3>
+                <p>松阳藏在浙南的群山里，是“最后的江南秘境”。这里有保存完好的古村落群，黄泥墙、青瓦片的民居错落分布在山间，清晨云雾缭绕，宛如世外桃源。还能体验古法农耕、品尝当地的高山茶。</p>
+                <p><strong>推荐理由：</strong>原生态古村落，田园风光，人文气息浓厚</p>
+                <p><strong>最佳旅行时间：</strong>3-4月（油菜花+梨花）、10-11月（晒秋）</p>
+            </div>
+        </div>
+        <div class="place">
+            <img src="images/place3.jpg" alt="青海翡翠湖">
+            <div class="place-text">
+                <h3>青海·翡翠湖</h3>
+                <p>翡翠湖位于大柴旦，是盐湖的“遗珠”。湖水因矿物质含量不同呈现出深浅不一的蓝绿色，像散落的翡翠镶嵌在戈壁上。相比于茶卡盐湖，这里人更少，更容易拍出纯净的大片。</p>
+                <p><strong>推荐理由：</strong>绝美盐湖风光，小众出片，自驾友好</p>
+                <p><strong>最佳旅行时间：</strong>6-8月（气候适宜）、9-10月（人少景美）</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>我的旅行日记 © 2025 版权所有 | 热爱生活，热爱旅行</p>
+    </footer>
+</body>
+</html>

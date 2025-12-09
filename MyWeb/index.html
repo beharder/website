@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的旅行日记 - 主页</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "微软雅黑", sans-serif;
+        }
+        body {
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            color: #3498db;
+        }
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .banner {
+            width: 100%;
+            height: 400px;
+            background: url(images/banner.jpg) center/cover no-repeat;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .intro {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #333;
+        }
+        .card-group {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+        .card {
+            width: 30%;
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>我的旅行日记</h1>
+        <p>用脚步丈量世界，用镜头记录美好</p>
+    </header>
+    <nav>
+        <a href="index.html">主页</a>
+        <a href="destination.html">目的地推荐</a>
+        <a href="travel-story.html">旅行故事</a>
+        <a href="photo-album.html">摄影相册</a>
+        <a href="travel-tips.html">旅行贴士</a>
+    </nav>
+    <div class="container">
+        <div class="banner"></div>
+        <div class="intro">
+            <h2>欢迎来到我的旅行世界</h2>
+            <p>旅行是一场不期而遇的美好，每一次出发，都是对生活的热爱。在这里，我分享走过的山川湖海、听过的人间故事、总结的出行经验，希望能给同样热爱旅行的你带来一点灵感。</p>
+            <p>点击上方导航栏，解锁更多旅行内容：从小众目的地推荐，到暖心的旅行故事；从实用的出行贴士，到定格美好瞬间的摄影相册，总有一款适合你。</p>
+        </div>
+        <div class="card-group">
+            <div class="card">
+                <img src="images/card1.jpg" alt="目的地">
+                <h3>目的地推荐</h3>
+                <p>小众又治愈的旅行地，避开人潮，感受自然</p>
+            </div>
+            <div class="card">
+                <img src="images/card2.jpg" alt="旅行故事">
+                <h3>旅行故事</h3>
+                <p>在路上遇到的温暖人和事，值得珍藏</p>
+            </div>
+            <div class="card">
+                <img src="images/card3.jpg" alt="摄影相册">
+                <h3>摄影相册</h3>
+                <p>用镜头定格每一个难忘的瞬间</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>我的旅行日记 © 2025 版权所有 | 热爱生活，热爱旅行</p>
+    </footer>
+</body>
+</html>
